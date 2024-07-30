@@ -6,7 +6,7 @@ We use a Swin Transformer and add processed meta-information to it to complete t
 
 ![002](./combiner_structure.png)
 
-### 1.0 Environment 
+### 1.0 Environment
 
 In this section we demonstrate how to prepare an environment with PyTorch.  Linux system is recommended.
 
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 In this paper, we use 2 subset of [iNaturalist2018](https://github.com/visipedia/inat_comp/tree/master/2018) datasets to evaluate performance
 
-train data and test data structure:  
+train data and test data structure:
 ```
 ├── train/
 │   ├── class1/
@@ -59,7 +59,7 @@ python main.py --c ./configs/CUB200_SwinT.yaml
 
 ### Acknowledgment
 
-Many thanks to our professor and TAs !
+Many thanks to our professor!
 
 
 
